@@ -67,7 +67,7 @@ the `src` folder (copied from http://www.php-fig.org/psr/psr-4/examples/)
 
 * A simple front controller, request dispatcher and dependency injection container
 
-* Two custom exception for when a route ain't found (not mapped) 
+* Two custom exceptions for when a route ain't found (not mapped) 
 and when a service ain't defined in the DiC
 
 * A config file in PHP (that also defines the error reporting and starts
