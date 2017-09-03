@@ -75,19 +75,19 @@ a session - yes, starting a session in a config file, you read that :D)
 
 ## What is next?
 
-* What about unit tests withou other libraries? How mocking (or something similar) 
+* [ ] What about unit tests withou other libraries? How mocking (or something similar) 
 and asserting and reporting would look like? 
 How much worths not adding even phpunit as a dev dependency?
 
-* More complex commands (eg: oauth token callback, loading and outputting some data, things like that)
+* [ ] More complex commands (eg: oauth token callback, loading and outputting some data, things like that)
 
-* Exemplify better the use of the DiC, making services to depend on other services
+* [ ] Exemplify better the use of the DiC, making services to depend on other services
 
-* Regular expression (or some sort of expressive) routes, where we have a route like 'GET /user/{id}'
+* [ ] Regular expression (or some sort of expressive) routes, where we have a route like 'GET /user/{id}'
 
-* Some event handling, maybe?
+* [ ] Some event handling, maybe?
 
-* **Comparisons with similar solutions, with and without micro-frameworks or a minial libs set
+* [ ] **Comparisons with similar solutions, with and without micro-frameworks or a minial libs set
 in other languages and platforms, such as Java, Go, Python and Ruby**
 
 ## What you'll (hopefully) not find?
