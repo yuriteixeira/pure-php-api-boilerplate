@@ -92,8 +92,8 @@ in other languages and platforms, such as Java, Go, Python and Ruby**
 
 ## What you'll (hopefully) not find?
 
-Purism, dogmatism or any kind of "the only truth" :) I'm not (and I will not) strictly follow PSR-1/2 code styles,
-applying the PSR-7 for handling requests), all SOLID principles, etc. 
+Purism, dogmatism or any kind of "the only truth" :) I'm not (and I will not) strictly following PSR-1/2 code styles, 
+applying the PSR-7 for handling requests or following all SOLID principles (and God knows what more :P). 
 
 You might never see here everything of anything, but a little bit of what makes sense from
 here and there. I value clean code, solid principles and the work the PHP community does
