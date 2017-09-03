@@ -12,6 +12,54 @@ Looked like an interesting idea and learning/recap oportunity. After all, one of
 Therefore, how hard would be to build RESTful API without one single external dependency? Can I do routing, dependency injection, logging, 
 use persistence mechanisms and such without the enormous amount of code that libraries that take care of it? What about the tradeoffs?
 
+## Quick stats
+
+```
+~/Projects/pure-php-api-boilerplate on master via 🐘 v7.2.0
+➜ phploc .
+phploc 4.0.0 by Sebastian Bergmann.
+
+Directories                                          4
+Files                                                8
+
+Size
+  Lines of Code (LOC)                              146
+  Comment Lines of Code (CLOC)                       4 (2.74%)
+  Non-Comment Lines of Code (NCLOC)                142 (97.26%)
+  Logical Lines of Code (LLOC)                      50 (34.25%)
+    Classes                                         18 (36.00%)
+      Average Class Length                           3
+        Minimum Class Length                         1
+        Maximum Class Length                         8
+      Average Method Length                          2
+        Minimum Method Length                        1
+        Maximum Method Length                        6
+    Functions                                        8 (16.00%)
+      Average Function Length                        4
+    Not in classes or functions                     24 (48.00%)
+
+Cyclomatic Complexity
+  Average Complexity per LLOC                     0.24
+  Average Complexity per Class                    1.80
+    Minimum Class Complexity                      1.00
+    Maximum Class Complexity                      3.00
+  Average Complexity per Method                   2.00
+    Minimum Method Complexity                     1.00
+    Maximum Method Complexity                     3.00
+
+  Method Calls                                       7
+    Non-Static                                       7 (100.00%)
+    Static                                           0 (0.00%)
+
+Structure
+  Namespaces                                         3
+
+  Methods                                            5
+    Scope
+      Non-Static Methods                             5 (100.00%)
+      Static Methods                                 0 (0.00%)
+```
+
 ## What you're gonna find now
 
 * A PSR-4 compliant autoloader, that maps the namespace `PurePhpApi` to
