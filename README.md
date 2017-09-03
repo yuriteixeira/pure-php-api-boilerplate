@@ -60,6 +60,10 @@ Structure
       Static Methods                                 0 (0.00%)
 ```
 
+## How to run this?
+
+* Insider your working copy (where you cloned this repo), run `php -S localhost:8080 web/index.php` (TIP: if you are using a Mac, the bundled php version seems to work well, but if you want to install php7, `brew install php72`.
+
 ## What you're gonna find now
 
 * A PSR-4 compliant autoloader, that maps the namespace `PurePhpApi` to
